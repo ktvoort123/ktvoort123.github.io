@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(189, 98, 113);
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  padding: 5px 0;
+  margin: 0;
+}
+
+a {
+  color: lightpink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav {
+  margin: 0;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+main {
+  padding-left: 30px;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav-name {
+  width: 300px;
+  flex:3;
+  padding-left: 30px;
+}
+
+.nav-pages {
+  flex:1;
+  display:flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.nav-page {
+  margin: 5px;
+  text-align: center;
+}
+
+.nav-page-text {
+  font-size: 12px;
+}
+
+p {
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.header-image {
+  width: 300px;
+  margin: 30px auto;
+  display: block;
+
+}
+
+.name-index-page {
+  text-align: center;
+  font-size: 50px;
+}
+
+.horizontal-line {
+  margin: 5px auto;
+  width: 30%;
+  border-top: white dotted 5px;
+  height: 1px;
+}
+
+#nav-link-name {
+  color: white;
+}
+
+#footer-text {
+  color: lightgrey;
+  text-align: left;
+  font-size: 10px;
+}
+
+.index-page-main {
+  text-align: center;
+}
+
+.portfolio-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 2fr 2fr 2fr 2fr;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.oo-ride-share {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.slack-cli {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.adagrams {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.hotel {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.personal-portfolio {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
+}
+
+.project-description {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.icon {
+  width: 50px;
+  margin: 0 auto;
+  display: block;
+  padding: 3px 0;
+}
+
+.project-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.project {
+  margin: 15px;
+  padding: 5px;
+  background-color:#d17786;
+  border-radius: 25px;
+
+}
+
+.portfolio-description {
+  text-align: center;
+}
+
+.project-title a{
+  color: white;
+  text-decoration: underline;
+}
+
+.about-me {
+  display: grid;
+  grid-template: 1fr 3fr/ 1fr 3fr;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.about-me-photo {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  margin-left: auto;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.about-me-text {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.about-me-title {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  padding-left: 20px; 
+  text-align: left;
+  margin-top: 0;
+}
+
+.blog-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template: 400px 400px 400px/ 2fr 2fr 2fr;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#portugal-article {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+  text-align: right;
+}
+
+#portugal-picture {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  margin-left: auto;
+}
+
+#dog-article {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+}
+
+#dog-picture {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  margin-right:auto;
+}
+
+#seattle-article {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+  text-align: right;
+}
+
+#seattle-picture {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+  margin-left: auto;
+}
+
+.blog-container img {
+  border-radius: 10%;
+  width:auto;
+  height: 95%;
+}
+
+.blog-article {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.blog-container h2 {
+  padding-top: 0;
+  font-size: 26px;
+  border-top: white dotted 4px;
+  padding-top: 2px;
+}
+
+.blog-container p{
+  font-size: 18px;
+}
